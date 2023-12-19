@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T11:42:44.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VZhsng0_tlyH4X6wCx_R" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-19T11:48:06.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MkYW9Q595tUtPiiuAFvw" version="22.1.11" type="github" pages="2">
   <diagram name="CommandService" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1259" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -191,14 +191,14 @@
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-76" value="ipfilter Rules&lt;br&gt;配置&lt;br&gt;对ip进过滤处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-32">
           <mxGeometry x="537.18" y="155" width="90.63" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4H9CAXHmAjxFmKd9AgGN-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-32" source="4H9CAXHmAjxFmKd9AgGN-85" target="4H9CAXHmAjxFmKd9AgGN-87">
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-32" source="4H9CAXHmAjxFmKd9AgGN-85" target="4H9CAXHmAjxFmKd9AgGN-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-85" value="存在&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;callbackurl" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-32">
           <mxGeometry x="680.0049999999997" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4H9CAXHmAjxFmKd9AgGN-87" value="发送文档状态&lt;br&gt;sendStatusDocument" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-32">
-          <mxGeometry x="470" y="257.5" width="130" height="62.5" as="geometry" />
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-89" value="{&amp;nbsp;server：&#39;&#39;,baseUrl:&#39;&#39;, wopiParams:{ commonInfo, userAuth, LastModifiedTime } }" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-32">
+          <mxGeometry x="280" y="380" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4H9CAXHmAjxFmKd9AgGN-21" target="4H9CAXHmAjxFmKd9AgGN-32">
           <mxGeometry relative="1" as="geometry" />
