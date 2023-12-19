@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:14:21.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="B2DyLlTKprpGwENnLsrv" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-19T12:21:00.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="W-RVqMrTzFm4z83By0nQ" version="22.1.11" type="github" pages="2">
   <diagram name="CommandService" id="7CNrnURbAiRTBtNmyDmN">
-    <mxGraphModel dx="1259" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,7 +204,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-91" value="sendStatusDocument" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="770" width="740" height="320" as="geometry" />
+          <mxGeometry x="1860" y="770" width="740" height="485" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-91" source="4H9CAXHmAjxFmKd9AgGN-92" target="4H9CAXHmAjxFmKd9AgGN-96">
           <mxGeometry relative="1" as="geometry">
@@ -229,8 +229,28 @@
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-101" value="id,idOriginal,username,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;indexUser,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;view,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;connectionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;isCloseCoAuthoring,// 是否关闭协同操作&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;isLiveViewer&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;encrypted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
           <mxGeometry x="180" y="40" width="145" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="4H9CAXHmAjxFmKd9AgGN-103" value="过滤出编辑，是协同编辑且同时打开" style="whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-91" source="4H9CAXHmAjxFmKd9AgGN-103" target="4H9CAXHmAjxFmKd9AgGN-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-103" value="过滤出编辑，是协同编辑且同时打开【】" style="whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
           <mxGeometry x="10" y="180" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-91" source="4H9CAXHmAjxFmKd9AgGN-114" target="4H9CAXHmAjxFmKd9AgGN-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-114" value="参与者数量&lt;br&gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
+          <mxGeometry x="31.25" y="270" width="72.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4H9CAXHmAjxFmKd9AgGN-91" source="4H9CAXHmAjxFmKd9AgGN-118" target="4H9CAXHmAjxFmKd9AgGN-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-118" value="判断当前文档信息是否&lt;br&gt;有变化" style="whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
+          <mxGeometry x="7.5" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-120" value="查询数据库是否有变化" style="whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-91">
+          <mxGeometry x="207.5" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
