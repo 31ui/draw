@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:52:38.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WuJtjbMIXECCRWDPxfa_" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-19T12:53:45.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Q3WmzzqvdFivDEoLEuyM" version="22.1.11" type="github" pages="2">
   <diagram name="CommandService" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -298,7 +298,7 @@
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-184" value="" style="group" vertex="1" connectable="0" parent="4H9CAXHmAjxFmKd9AgGN-91">
           <mxGeometry x="10" y="200" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4H9CAXHmAjxFmKd9AgGN-183" value="打开-&amp;gt;从 community-&amp;gt;reconnect 进行更改-&amp;gt;断开-&amp;gt;订阅" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-184">
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-183" value="打开-&amp;gt;从 community-&amp;gt;reconnect 进行更改-&amp;gt;断开-&amp;gt;订阅&lt;br&gt;始终覆盖回调以避免过期的回调" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-184">
           <mxGeometry y="40" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-182" value="即使连接关闭，也要更新回调以避免脚本：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-184">
