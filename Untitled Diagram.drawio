@@ -1,17 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T07:28:20.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XQfPo9KC7vLs9NijCXSL" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T07:30:03.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2FITNX3l-kuWMK0TLEtz" version="22.1.11" type="github">
   <diagram name="Page-1" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oNGNtYai8DwMrWgFIkdL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNGNtYai8DwMrWgFIkdL-2" target="oNGNtYai8DwMrWgFIkdL-4">
+        <mxCell id="oNGNtYai8DwMrWgFIkdL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNGNtYai8DwMrWgFIkdL-2" target="oNGNtYai8DwMrWgFIkdL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oNGNtYai8DwMrWgFIkdL-2" value="命令服务&lt;br&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;CommandService&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="170" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="oNGNtYai8DwMrWgFIkdL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oNGNtYai8DwMrWgFIkdL-4" target="oNGNtYai8DwMrWgFIkdL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oNGNtYai8DwMrWgFIkdL-4" value="检测ip地址" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNGNtYai8DwMrWgFIkdL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNGNtYai8DwMrWgFIkdL-7" target="oNGNtYai8DwMrWgFIkdL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNGNtYai8DwMrWgFIkdL-7" value="文件大小限制，权限等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNGNtYai8DwMrWgFIkdL-10" value="commondFromServer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="260" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
