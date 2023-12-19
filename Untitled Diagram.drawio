@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:43:29.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LXf-vzTQMSx8UP-0pWXi" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T08:44:15.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="h63VwXC7q7BcTotPr5fB" version="22.1.11" type="github" pages="2">
   <diagram name="Page-1" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,6 +48,14 @@
         <mxCell id="oNGNtYai8DwMrWgFIkdL-23" value="EditorData根据文档的key值，清除redis缓存（editorDataMemory）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
           <mxGeometry x="35" y="250" width="125" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F0BIP60KP7pMEPSn2TJS" name="editorDataMemory">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
