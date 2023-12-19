@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:58:41.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yjUED_ehAJ_VzyVqp4-B" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:07:45.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xfTdFUvhOM06xjULF0vx" version="22.1.11" type="github" pages="2">
   <diagram name="CommandService" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oNGNtYai8DwMrWgFIkdL-13" value="commondFromServer" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="690" y="170" width="370" height="490" as="geometry" />
+          <mxGeometry x="720" y="170" width="1000" height="650" as="geometry" />
         </mxCell>
         <mxCell id="oNGNtYai8DwMrWgFIkdL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oNGNtYai8DwMrWgFIkdL-13" source="oNGNtYai8DwMrWgFIkdL-15" target="oNGNtYai8DwMrWgFIkdL-16">
           <mxGeometry relative="1" as="geometry" />
@@ -48,8 +48,41 @@
         <mxCell id="oNGNtYai8DwMrWgFIkdL-21" value="根据配置信息，解析请求头参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
           <mxGeometry x="45" y="180" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oNGNtYai8DwMrWgFIkdL-13" source="oNGNtYai8DwMrWgFIkdL-23" target="4H9CAXHmAjxFmKd9AgGN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oNGNtYai8DwMrWgFIkdL-23" value="EditorData根据文档的key值，清除redis缓存（editorDataMemory）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
           <mxGeometry x="35" y="250" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oNGNtYai8DwMrWgFIkdL-13" source="4H9CAXHmAjxFmKd9AgGN-9" target="4H9CAXHmAjxFmKd9AgGN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-9" value="请求参数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
+          <mxGeometry x="35" y="350" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oNGNtYai8DwMrWgFIkdL-13" source="4H9CAXHmAjxFmKd9AgGN-11" target="4H9CAXHmAjxFmKd9AgGN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-11" value="info(文档信息)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
+          <mxGeometry x="57.5" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oNGNtYai8DwMrWgFIkdL-13" source="4H9CAXHmAjxFmKd9AgGN-15" target="4H9CAXHmAjxFmKd9AgGN-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-24" value="已经被编辑过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4H9CAXHmAjxFmKd9AgGN-20">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-15" value="判断数据库是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
+          <mxGeometry x="200" y="430" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4H9CAXHmAjxFmKd9AgGN-21" value="1. 如果没有用户且没有更改，则发送状态“已关闭”并且不添加到数据库&lt;br&gt;2. 如果没有用户，但有更改，则发送没有用户的“正在编辑”状态，但将其添加到数据库中&lt;br&gt;3. 如果有用户，则只需添加到数据库中" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="oNGNtYai8DwMrWgFIkdL-13">
+          <mxGeometry x="390" y="435" width="490" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-1" value="返回文流outputBuffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="812.5" y="810" width="125" height="70" as="geometry" />
