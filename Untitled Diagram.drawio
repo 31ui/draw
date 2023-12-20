@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T02:05:15.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WPIxATct-mezX5WPo4AS" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T02:13:44.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7qla7uAdDx6Jmo3pn-5U" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,17 +16,27 @@
         <mxCell id="vm7K6SFAehFfyD0kpyEC-6" value="文件大小限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vm7K6SFAehFfyD0kpyEC-4">
           <mxGeometry x="35" y="127.5" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="YL6jFPio73tcMdtBlWkF-2" value="commandService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="80" width="180" height="200" as="geometry" />
+        <mxCell id="YL6jFPio73tcMdtBlWkF-2" value="initFormRequest" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YL6jFPio73tcMdtBlWkF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YL6jFPio73tcMdtBlWkF-2" source="YL6jFPio73tcMdtBlWkF-4" target="YL6jFPio73tcMdtBlWkF-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YL6jFPio73tcMdtBlWkF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YL6jFPio73tcMdtBlWkF-2" target="YL6jFPio73tcMdtBlWkF-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="87.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YL6jFPio73tcMdtBlWkF-4" value="检测ip地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YL6jFPio73tcMdtBlWkF-2">
-          <mxGeometry x="35" y="50" width="110" height="37.5" as="geometry" />
+        <mxCell id="scXBVsKupUYc1fgvArX5-1" value="初始化 tenant，docId，userId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YL6jFPio73tcMdtBlWkF-2">
+          <mxGeometry x="10" y="30" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YL6jFPio73tcMdtBlWkF-5" value="文件大小限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YL6jFPio73tcMdtBlWkF-2">
-          <mxGeometry x="35" y="127.5" width="110" height="35" as="geometry" />
+        <mxCell id="scXBVsKupUYc1fgvArX5-2" value="ctx.initTenantCache" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="scXBVsKupUYc1fgvArX5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="scXBVsKupUYc1fgvArX5-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="87.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scXBVsKupUYc1fgvArX5-4" value="根据配置信息tenant，&lt;br&gt;如果存在缓存文件，读取node的缓存文件（不存在则创建）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="scXBVsKupUYc1fgvArX5-2">
+          <mxGeometry x="10" y="30" width="150" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
