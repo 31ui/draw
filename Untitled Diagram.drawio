@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T08:06:22.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0VmkJPlVRNIQhYQsCp1S" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-20T08:10:21.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8lc3uYinNAFKRb8RJvty" version="22.1.11" type="github" pages="4">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="965" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -377,13 +377,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="un21ENSpOyYztEaVqAXD-41" value="commandHandle（getForgotten&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1700" width="175" height="130" as="geometry" />
+          <mxGeometry x="70" y="1700" width="175" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="un21ENSpOyYztEaVqAXD-42" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;ZBdo-1702868361466&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;version&amp;quot;:1,&amp;quot;tokensPerLine&amp;quot;:[],&amp;quot;wrap&amp;quot;:true,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;DQPf-1702870026270&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;y892-1702870026269&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;此命令允许请求被遗忘的文件&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;此命令允许请求被&lt;/div&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;遗忘的文件？？ 历史版本&lt;/div&gt;&lt;/article&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="un21ENSpOyYztEaVqAXD-41">
-          <mxGeometry x="15" y="35" width="160" height="40" as="geometry" />
+        <mxCell id="un21ENSpOyYztEaVqAXD-42" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;ZBdo-1702868361466&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;version&amp;quot;:1,&amp;quot;tokensPerLine&amp;quot;:[],&amp;quot;wrap&amp;quot;:true,&amp;quot;language&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;DQPf-1702870026270&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;y892-1702870026269&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;此命令允许请求被遗忘的文件&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;&quot; style=&quot;&quot; data-theme=&quot;default&quot;&gt;此命令允许请求文件&lt;br&gt;&lt;/div&gt;&lt;/article&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="un21ENSpOyYztEaVqAXD-41">
+          <mxGeometry x="15" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-43" target="un21ENSpOyYztEaVqAXD-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="un21ENSpOyYztEaVqAXD-43" value="匹配Data/forgotten下的文件" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1735" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-45" value="error：NoError(0)" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
