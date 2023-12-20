@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T02:31:27.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rol2F764dvCeO-XnHbQf" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T02:38:06.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wNEl2jr-QsyKXr-cJI-d" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,11 +86,34 @@
         <mxCell id="lr_Avm0-GtG8C-bHsb6K-7" value="返回结果信息&lt;br&gt;{key,error,version}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lr_Avm0-GtG8C-bHsb6K-5">
           <mxGeometry x="20" y="30" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T5y0rLjNmdEULvwshvxN-1" value="commandHandle（info）" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="260" width="240" height="200" as="geometry" />
+        <mxCell id="3Y8jQIvo5wAgQ6eYn0zS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Y8jQIvo5wAgQ6eYn0zS-1" target="3Y8jQIvo5wAgQ6eYn0zS-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T5y0rLjNmdEULvwshvxN-3" value="database 没有文件说明没有被编辑过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="T5y0rLjNmdEULvwshvxN-1">
-          <mxGeometry x="35" y="10" width="205" height="40" as="geometry" />
+        <mxCell id="3Y8jQIvo5wAgQ6eYn0zS-1" value="commandHandle（info）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T5y0rLjNmdEULvwshvxN-3" value="database 没有文件说明没有被编辑过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y8jQIvo5wAgQ6eYn0zS-1">
+          <mxGeometry x="32.5" y="30" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oeFGZcnehU2hMLoqn-nm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Y8jQIvo5wAgQ6eYn0zS-2" target="oeFGZcnehU2hMLoqn-nm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oeFGZcnehU2hMLoqn-nm-3" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oeFGZcnehU2hMLoqn-nm-2">
+          <mxGeometry x="0.1667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Y8jQIvo5wAgQ6eYn0zS-2" value="判断数据库是否存在" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="365" y="325" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MqXaOLWZ_nBOd5WdEFG_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oeFGZcnehU2hMLoqn-nm-1" target="MqXaOLWZ_nBOd5WdEFG_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oeFGZcnehU2hMLoqn-nm-1" value="绑定bindEvents" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="505" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqXaOLWZ_nBOd5WdEFG_-1" value="1. 如果没有用户且没有更改，则发送状态“已关闭”并且不添加到数据库&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;2. 如果没有用户，但有更改，则发送没有用户的“正在编辑”状态，但将其添加到数据库中&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;3. 如果有用户，则只需添加到数据库中&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="490" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
