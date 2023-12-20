@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T05:58:23.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tXHkCdRq6JlD3-2Hxmcb" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T05:58:40.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i_Uk1M6g6Cyhjr0Vd3Hm" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
           <mxGeometry x="1890" y="335" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="meEU26SdCNed7co43gLU-3" value="1.即使连接关闭，也要更新回调以避免脚本：&lt;br&gt;&lt;br&gt;2. 打开-&amp;gt;从 community-&amp;gt;reconnect 进行更改-&amp;gt;断开-&amp;gt;订阅&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;始终覆盖回调以避免过期的回调&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1505" y="210" width="330" height="70" as="geometry" />
+          <mxGeometry x="1505" y="220" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Un9Qi8VwuYnLeSAtrX5k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Un9Qi8VwuYnLeSAtrX5k-1" target="kwkusTrrnCLp7X0xZnXZ-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
