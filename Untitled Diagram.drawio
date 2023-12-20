@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T12:50:45.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8afzE4IpMmMe026vP06q" version="22.1.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-20T12:52:18.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5c-hOmDv0C3dZ-qM561n" version="22.1.11" type="github" pages="6">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -941,16 +941,29 @@
         <mxCell id="w6VH04Og9-QQxxMoSSoO-6" value="文档存储服务器&lt;br&gt;（mio,sqlBase）&lt;br&gt;这里重命名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w6VH04Og9-QQxxMoSSoO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w6VH04Og9-QQxxMoSSoO-9" target="w6VH04Og9-QQxxMoSSoO-2">
+        <mxCell id="w6VH04Og9-QQxxMoSSoO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w6VH04Og9-QQxxMoSSoO-9" target="w6VH04Og9-QQxxMoSSoO-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="750" y="300" />
-              <mxPoint x="350" y="300" />
+              <mxPoint x="150" y="300" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6VH04Og9-QQxxMoSSoO-14" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w6VH04Og9-QQxxMoSSoO-13">
+          <mxGeometry x="0.0897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6VH04Og9-QQxxMoSSoO-15" value="发送给编辑器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w6VH04Og9-QQxxMoSSoO-13">
+          <mxGeometry x="0.059" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w6VH04Og9-QQxxMoSSoO-9" value="文档编辑服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w6VH04Og9-QQxxMoSSoO-16" value="文档修改title 流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
