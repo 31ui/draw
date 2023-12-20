@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T03:14:07.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KrC9IYHVmmc1IN0EIf4b" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T03:22:21.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nBAhvKd7goljYvKYEU8_" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         <mxCell id="1JNXQoHF50Z2I4dLZMmx-3" value="sendStatusDocument" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1230" y="300" width="470" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="pyxG8-SNXBPCMExc7HnW-1" value="触发数据库更新" style="whiteSpace=wrap;html=1;" vertex="1" parent="1JNXQoHF50Z2I4dLZMmx-3">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="1JNXQoHF50Z2I4dLZMmx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1JNXQoHF50Z2I4dLZMmx-7" target="1JNXQoHF50Z2I4dLZMmx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -190,19 +193,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gY0CDk2HrMaWx2BAg6g2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kwkusTrrnCLp7X0xZnXZ-10" target="1JNXQoHF50Z2I4dLZMmx-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1180" y="490" />
-              <mxPoint x="1180" y="365" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gY0CDk2HrMaWx2BAg6g2-5" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gY0CDk2HrMaWx2BAg6g2-4">
-          <mxGeometry x="-0.329" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kwkusTrrnCLp7X0xZnXZ-10" value="返回callBack存在且wopiParas不存在" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="890" y="450" width="80" height="80" as="geometry" />
         </mxCell>
@@ -217,6 +207,9 @@
         </mxCell>
         <mxCell id="gY0CDk2HrMaWx2BAg6g2-1" value="修改bChangeBase=All（2）" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1025" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meEU26SdCNed7co43gLU-3" value="1.即使连接关闭，也要更新回调以避免脚本：&lt;br&gt;&lt;br&gt;2. 打开-&amp;gt;从 community-&amp;gt;reconnect 进行更改-&amp;gt;断开-&amp;gt;订阅&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;始终覆盖回调以避免过期的回调&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="220" width="330" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
