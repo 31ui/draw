@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T07:12:12.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1AiiyMU55nG-84fabuca" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-20T07:17:36.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="45taNcFpKTrbtlVS7lec" version="22.1.11" type="github" pages="4">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="965" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -318,6 +318,12 @@
           <mxGeometry x="70" y="1240" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="un21ENSpOyYztEaVqAXD-21" value="强制保存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="un21ENSpOyYztEaVqAXD-20">
+          <mxGeometry x="10" y="30" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-22" value="commandHandle（forcesave)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1420" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-23" value="强制保存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="un21ENSpOyYztEaVqAXD-22">
           <mxGeometry x="10" y="30" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
