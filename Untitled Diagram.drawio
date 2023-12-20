@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T07:17:36.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="45taNcFpKTrbtlVS7lec" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-20T07:22:04.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="c0Zh7c_8-yojaYwo8K3u" version="22.1.11" type="github" pages="4">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="965" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -320,11 +320,32 @@
         <mxCell id="un21ENSpOyYztEaVqAXD-21" value="强制保存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="un21ENSpOyYztEaVqAXD-20">
           <mxGeometry x="10" y="30" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="un21ENSpOyYztEaVqAXD-22" value="commandHandle（forcesave)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="un21ENSpOyYztEaVqAXD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-22" target="un21ENSpOyYztEaVqAXD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-22" value="commandHandle（meta&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1420" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="un21ENSpOyYztEaVqAXD-23" value="强制保存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="un21ENSpOyYztEaVqAXD-22">
-          <mxGeometry x="10" y="30" width="150" height="80" as="geometry" />
+        <mxCell id="un21ENSpOyYztEaVqAXD-25" value="为所有协作编辑者更&lt;br&gt;新文档的元信息。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="un21ENSpOyYztEaVqAXD-22">
+          <mxGeometry x="15" y="35" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-26" target="un21ENSpOyYztEaVqAXD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-26" value="参数存在&lt;br&gt;meta" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1445" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-27" target="un21ENSpOyYztEaVqAXD-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-27" value="pubsubRabbitMQ&lt;br&gt;消息订阅发布" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-28" value="消息data:{type: 11,ctx,docId,users,meta:&#39;&#39; }&lt;br&gt;pubsub.publish(msg)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1405" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-31" value="error：NoError(0)" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1455" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
