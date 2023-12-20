@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T03:08:43.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E7yh7q8RXqH8idrXouwO" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T03:10:52.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IHixVbf4ZW6XkaisCkZB" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,14 +126,8 @@
         <mxCell id="MqXaOLWZ_nBOd5WdEFG_-1" value="1. 如果没有用户且没有更改，则发送状态“已关闭”并且不添加到数据库&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;2. 如果没有用户，但有更改，则发送没有用户的“正在编辑”状态，但将其添加到数据库中&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;3. 如果有用户，则只需添加到数据库中&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="230" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwkusTrrnCLp7X0xZnXZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1JNXQoHF50Z2I4dLZMmx-3" target="kwkusTrrnCLp7X0xZnXZ-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="1JNXQoHF50Z2I4dLZMmx-3" value="sendStatusDocument" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="300" width="170" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="1JNXQoHF50Z2I4dLZMmx-4" value="database 没有文件说明没有被编辑过&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1JNXQoHF50Z2I4dLZMmx-3">
-          <mxGeometry x="32.5" y="40" width="105" height="80" as="geometry" />
+          <mxGeometry x="1120" y="300" width="580" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1JNXQoHF50Z2I4dLZMmx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1JNXQoHF50Z2I4dLZMmx-7" target="1JNXQoHF50Z2I4dLZMmx-12">
           <mxGeometry relative="1" as="geometry" />
@@ -189,19 +183,24 @@
         <mxCell id="kwkusTrrnCLp7X0xZnXZ-7" value="获取callBack对象" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="705" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwkusTrrnCLp7X0xZnXZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kwkusTrrnCLp7X0xZnXZ-10" target="1JNXQoHF50Z2I4dLZMmx-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kwkusTrrnCLp7X0xZnXZ-13" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwkusTrrnCLp7X0xZnXZ-12">
-          <mxGeometry x="-0.1053" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kwkusTrrnCLp7X0xZnXZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kwkusTrrnCLp7X0xZnXZ-10" target="kwkusTrrnCLp7X0xZnXZ-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="930" y="610" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IlWfT-Gm5_xWYVAmov4-3" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwkusTrrnCLp7X0xZnXZ-22">
+          <mxGeometry x="-0.3286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3IlWfT-Gm5_xWYVAmov4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kwkusTrrnCLp7X0xZnXZ-10" target="1JNXQoHF50Z2I4dLZMmx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IlWfT-Gm5_xWYVAmov4-2" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3IlWfT-Gm5_xWYVAmov4-1">
+          <mxGeometry x="-0.7673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kwkusTrrnCLp7X0xZnXZ-10" value="返回callBack存在且wopiParas不存在" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
@@ -211,7 +210,7 @@
           <mxGeometry x="990" y="590" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kwkusTrrnCLp7X0xZnXZ-26" value="error：NoError(0)" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1395" y="335" width="120" height="60" as="geometry" />
+          <mxGeometry x="1580" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
