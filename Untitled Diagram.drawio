@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T06:54:48.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QxzXOKim7B8lxw6xwNcE" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-20T07:01:20.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="s0EIZKs-nguJskVYXUjN" version="22.1.11" type="github" pages="4">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="965" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -274,10 +274,28 @@
           <mxGeometry x="490" y="775" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x2fHC3qpIxhBIx_IK5ot-19" value="error:(5)&lt;br&gt;UnknownCommand" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="315" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x2fHC3qpIxhBIx_IK5ot-23" value="消息data:{type: 0,ctx,docId,users,descript:&#39;&#39; }&lt;br&gt;pubsub.publish(msg)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="725" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-5" value="commandHandle（saved&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1020" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-6" value="文档管理器关于组装后文件保存处理状态的结果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="un21ENSpOyYztEaVqAXD-5">
+          <mxGeometry x="10" y="30" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-7" target="un21ENSpOyYztEaVqAXD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-7" value="参数存在&lt;br&gt;status！==&#39;1&#39;[]" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un21ENSpOyYztEaVqAXD-6" target="un21ENSpOyYztEaVqAXD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="un21ENSpOyYztEaVqAXD-9" value="本地(默认内存)&lt;br&gt;DeitorDataMemory" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
