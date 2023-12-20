@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T01:19:21.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RGX6ir8duPtQ4IBQauKC" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T01:20:27.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E6qPsYIHApulBH6A9yBl" version="22.1.11" type="github" pages="2">
   <diagram name="CommandService" id="7CNrnURbAiRTBtNmyDmN">
     <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-135" value="查询数据库是否有变化" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-175">
-          <mxGeometry x="225" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="225" y="285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4H9CAXHmAjxFmKd9AgGN-141" value="修改状态为关闭&lt;br&gt;closed：4" style="whiteSpace=wrap;html=1;" vertex="1" parent="4H9CAXHmAjxFmKd9AgGN-175">
           <mxGeometry y="500" width="120" height="60" as="geometry" />
