@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T02:23:31.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oWTuQ5FDfC-NCv-dq2J8" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-20T02:25:03.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="H9qZVGX6QOasUWyypFG4" version="22.1.11" type="github" pages="3">
   <diagram id="sMD8rr6DZ-J4-xkLrUH6" name="CommandService">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,6 +85,14 @@
         </mxCell>
         <mxCell id="lr_Avm0-GtG8C-bHsb6K-7" value="返回结果信息&lt;br&gt;{key,error,version}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lr_Avm0-GtG8C-bHsb6K-5">
           <mxGeometry x="20" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lr_Avm0-GtG8C-bHsb6K-11" value="commandHandle" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="170" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lr_Avm0-GtG8C-bHsb6K-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lr_Avm0-GtG8C-bHsb6K-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="87.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
