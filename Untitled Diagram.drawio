@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T07:00:24.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="g0ykE9vy_qaKmzHi1UJu" version="22.1.11" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-12-21T07:05:39.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DPgpuNcw-vf0SlWpnAhO" version="22.1.11" type="github" pages="12">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -403,26 +403,16 @@
         <mxCell id="jxSxpKlvm16YxuRqI4ov-3" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-6" target="jxSxpKlvm16YxuRqI4ov-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="270" />
-              <mxPoint x="380" y="270" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-6" target="jxSxpKlvm16YxuRqI4ov-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-5" value="3.请求选定版本信息连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-4">
-          <mxGeometry x="-0.1154" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-6" value="文档编辑器&lt;br&gt;显示版本号列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-6" value="文档转换服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jxSxpKlvm16YxuRqI4ov-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-3" target="jxSxpKlvm16YxuRqI4ov-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-8" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-7">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-8" value="文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-7">
           <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -430,27 +420,27 @@
         <mxCell id="jxSxpKlvm16YxuRqI4ov-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-11" target="jxSxpKlvm16YxuRqI4ov-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-9">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-10" value="选择文件上传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-9">
           <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-11" value="文档编辑器&lt;br&gt;(版本历史按钮)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-11" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jxSxpKlvm16YxuRqI4ov-12" value="&lt;b&gt;文档转换&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="40" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-13" value="文档编辑器&lt;br&gt;（显示选定文档版本）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-3" target="jxSxpKlvm16YxuRqI4ov-13">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxSxpKlvm16YxuRqI4ov-16" target="jxSxpKlvm16YxuRqI4ov-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jxSxpKlvm16YxuRqI4ov-15" value="4.发送选定版本文件链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-14">
-          <mxGeometry x="0.0333" y="-1" relative="1" as="geometry">
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-20" value="下载转换后的文档文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jxSxpKlvm16YxuRqI4ov-19">
+          <mxGeometry x="0.3739" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jxSxpKlvm16YxuRqI4ov-16" value="conversion API&lt;br&gt;(Office Open XML)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
