@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T01:42:15.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i3D41vKN1sd-SFd3oIhP" version="22.1.11" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-12-21T01:42:39.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BOFUNFjbuEHV5KDoJJk7" version="22.1.11" type="github" pages="9">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,6 +128,81 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="55" y="40" width="740" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-1">
+          <mxGeometry width="740" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-3" value="" style="group" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-1">
+          <mxGeometry width="705" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-4" value="文档编辑器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-5" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry x="585" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-6" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-7" target="rvt5n_zUPxOkw2onl2UP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-7" value="文档编辑服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry x="395" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-4" target="rvt5n_zUPxOkw2onl2UP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-9" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-8">
+          <mxGeometry x="-0.0154" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-5" target="rvt5n_zUPxOkw2onl2UP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="160" />
+              <mxPoint x="455" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-11" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-10">
+          <mxGeometry x="-0.128" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-14" target="rvt5n_zUPxOkw2onl2UP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-13" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-12">
+          <mxGeometry x="0.2936" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-14" value="office open XML&lt;br&gt;&amp;nbsp;转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry x="395" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-7" target="rvt5n_zUPxOkw2onl2UP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-16" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-15">
+          <mxGeometry x="0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rvt5n_zUPxOkw2onl2UP-3" source="rvt5n_zUPxOkw2onl2UP-19" target="rvt5n_zUPxOkw2onl2UP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvt5n_zUPxOkw2onl2UP-17">
+          <mxGeometry x="0.1556" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-19" value="浏览器获取到文件地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvt5n_zUPxOkw2onl2UP-20" value="&lt;b&gt;文件保存&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rvt5n_zUPxOkw2onl2UP-3">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
