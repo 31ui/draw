@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T06:39:37.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-ljeokVcN8oaw6q4Wp0q" version="22.1.11" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-21T06:46:54.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MxJO0D3mJUwnPjXtNv39" version="22.1.11" type="github" pages="11">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -331,6 +331,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-13" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="740" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-16" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-19" target="Rd1CTkHApVJbFv0q4xSA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-19" value="显示版本号列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-22" target="Rd1CTkHApVJbFv0q4xSA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-22" value="文档编辑器&lt;br&gt;(版本历史)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-23" value="&lt;b&gt;文档历史&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-25" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
