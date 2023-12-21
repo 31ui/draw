@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T06:49:42.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LIkSlvklEHqjEQyBxwRi" version="22.1.11" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-21T06:51:50.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YCeTVNkgTd3h00CCcHkA" version="22.1.11" type="github" pages="11">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -337,11 +337,26 @@
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-33" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-29">
+          <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-16" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-19" target="Rd1CTkHApVJbFv0q4xSA-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-19" target="Rd1CTkHApVJbFv0q4xSA-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="210" />
+              <mxPoint x="360" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-31" value="3.请求选定版本信息连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-30">
+          <mxGeometry x="-0.1154" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-19" value="文档编辑器&lt;br&gt;显示版本号列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="110" width="120" height="60" as="geometry" />
@@ -349,14 +364,16 @@
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rd1CTkHApVJbFv0q4xSA-22" target="Rd1CTkHApVJbFv0q4xSA-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-20">
+          <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-22" value="文档编辑器&lt;br&gt;(版本历史按钮)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Rd1CTkHApVJbFv0q4xSA-23" value="&lt;b&gt;文档历史&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-25" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
