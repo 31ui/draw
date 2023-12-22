@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T02:40:15.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zkXM7CzgNUM7Fqr6xUkp" version="22.1.11" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-12-22T02:41:00.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JVmjuBBWi_UQASiMqox3" version="22.1.11" type="github" pages="13">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -331,16 +331,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-39" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-39" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="60" y="40" width="620" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-13" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-13" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry width="620" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-16" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-16" value="文档存储服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry x="250" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-19" target="Rd1CTkHApVJbFv0q4xSA-16">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-19" target="Rd1CTkHApVJbFv0q4xSA-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="230" />
@@ -348,43 +348,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-31" value="3.请求选定版本信息连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-30">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-31" value="3.请求选定版本信息连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rd1CTkHApVJbFv0q4xSA-30" vertex="1" connectable="0">
           <mxGeometry x="-0.1154" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-19" value="文档编辑器&lt;br&gt;显示版本号列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-19" value="文档编辑器&lt;br&gt;显示版本号列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry x="430" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-19">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-33" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-29">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-33" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rd1CTkHApVJbFv0q4xSA-29" vertex="1" connectable="0">
           <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-22" target="Rd1CTkHApVJbFv0q4xSA-16">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-22" target="Rd1CTkHApVJbFv0q4xSA-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-20">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rd1CTkHApVJbFv0q4xSA-20" vertex="1" connectable="0">
           <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-22" value="文档编辑器&lt;br&gt;(版本历史按钮)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-22" value="文档编辑器&lt;br&gt;(版本历史按钮)" style="rounded=1;whiteSpace=wrap;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-23" value="&lt;b&gt;文档历史&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-23" value="&lt;b&gt;文档历史&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-36" value="文档编辑器&lt;br&gt;（显示选定文档版本）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rd1CTkHApVJbFv0q4xSA-39">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-36" value="文档编辑器&lt;br&gt;（显示选定文档版本）" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" vertex="1">
           <mxGeometry x="250" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-36">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Rd1CTkHApVJbFv0q4xSA-39" source="Rd1CTkHApVJbFv0q4xSA-16" target="Rd1CTkHApVJbFv0q4xSA-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rd1CTkHApVJbFv0q4xSA-38" value="4.发送选定版本文件链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd1CTkHApVJbFv0q4xSA-37">
+        <mxCell id="Rd1CTkHApVJbFv0q4xSA-38" value="4.发送选定版本文件链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rd1CTkHApVJbFv0q4xSA-37" vertex="1" connectable="0">
           <mxGeometry x="0.0333" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -505,6 +505,14 @@
         <mxCell id="jxSxpKlvm16YxuRqI4ov-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jxSxpKlvm16YxuRqI4ov-40" source="jxSxpKlvm16YxuRqI4ov-36" target="jxSxpKlvm16YxuRqI4ov-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AMcLOi0yaxds5aRMSPbG" name="DocsCoServer">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
