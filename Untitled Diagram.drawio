@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T02:44:17.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6MTApheEzkeYTmAgNAO3" version="22.1.11" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-12-22T03:04:11.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SfM4AvwtfrndF98zpWMc" version="22.1.11" type="github" pages="13">
   <diagram id="jjJoAGcETn4_lGOuAO_D" name="服务结构">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -514,10 +514,76 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5Fbg7dEvtp5AK0YglVa6-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="70" width="700" height="210" as="geometry" />
+          <mxGeometry x="100" y="105" width="760" height="355" as="geometry" />
         </mxCell>
-        <mxCell id="5Fbg7dEvtp5AK0YglVa6-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;server&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;docsCoserver&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-10" value="rabbitMQCore&lt;br&gt;(消息队列)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="350" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-12" value="socket 数据监听" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-16" value="auth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-20" value="message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="200" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-21" value="cursor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="200" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-22" value="getLock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-23" value="saveChage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="240" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-24" value="isSaveLock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="240" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-25" value="unSaveLock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="280" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-26" value="getMessages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="280" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-27" value="unLockDocument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="280" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-28" value="close" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-29" value="versionHistory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="320" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-30" value="openDocument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="320" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-31" value="clientLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="360" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-32" value="extendSession" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="360" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-33" value="forceSaveStart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="360" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-34" value="rpc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="398" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fbg7dEvtp5AK0YglVa6-35" value="authChangesAck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="398" width="98.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
